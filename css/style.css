@@ -1,3 +1,77 @@
+/* Global css */
+:root {
+  --primary-bg: #1A0B2E;          
+  --secondary-bg: #351165;       
+  --primary-text: #ffffff;        
+  --secondary-text: #b0b0b0;     
+  --highlight: #00ff8c;           
+  --accent-gradient: linear-gradient(
+    25deg, 
+    #F7E93F 0%, 
+    #FB09B4 51%, 
+    #9100F8 100%
+  );
+  --button-text: #ffffff;
+}
+
+body{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.primary-btn{
+  padding: 12px 20px;
+  background: var(--accent-gradient);
+  border-radius: 100px;
+  color: #fff;
+  cursor:pointer;
+  transition: all .3s ease;
+}
+.primary-btn:hover{
+  background: linear-gradient(
+    50deg, 
+    #F7E93F 0%, 
+    #FB09B4 51%, 
+    #9100F8 100%
+  );
+}
+.container{
+  width: 75%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#header{
+  background: var(--primary-bg);
+}
+
+#header .nav-menu a{
+  color: var(--primary-text);
+}
+
+#hero-banner {
+    background-image: url('../assets/hero-bg.png'); /* Replace with your image link */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+
 /* phone*/
 @media (max-width: 576px) {
   
