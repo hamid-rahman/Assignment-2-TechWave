@@ -300,6 +300,64 @@ margin-bottom: 12px;
 
 
 
+/* host section */
+#host-section {
+  padding-bottom: 120px;
+background: var(--primary-bg);
+}
+
+.host-card {
+  background-color: #250E44; /* Card purple */
+  border-radius: 40px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  text-align: left;
+}
+
+.host-img img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.host-info {
+  flex: 1;
+}
+
+.host-name {
+  font-size: 32px;
+  line-height: 39px;
+  margin: 0 0 15px 0;
+}
+
+.host-bio {
+  margin-bottom: 16px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 12px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #533c72;;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s;
+}
+
+.icon:hover {
+  background: var(--button-text)
+}
+/* host section end */
+
 
 
 
@@ -388,6 +446,17 @@ h3 {
 }
 .featured_card_items {
   grid-template-columns: repeat(1, 1fr);
+}
+.host-card {
+    flex-direction: column;
+    text-align: center;
+}
+.social-icons{
+  justify-content: center;
+}
+.host-name {
+  font-size: 24px;
+  line-height: 32px;
 }
 }
 
