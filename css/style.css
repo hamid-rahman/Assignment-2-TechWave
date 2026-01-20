@@ -339,7 +339,7 @@ button.secondary-btn:hover {
 /* techwave-footer */
 .techwave-footer {
   background-color: #230e3d;
-  background-image: url("/footer-bg.png");
+  background-image: url("../assets/footer-bg.png");
   background-size: unset;
   background-repeat: repeat-x;
   background-position: center;
