@@ -509,10 +509,6 @@ div#hero-banner {
     height: 200px;
   }
 
-  .wave-center-circle-mic img {
-    width: 100%;
-    max-width: 80px;
-  }
 
   .mic h4 {
     font-size: 16px;
@@ -649,6 +645,16 @@ div#hero-banner {
     padding-left: 20px;
     padding-right: 20px;
   }
+}
+
+
+
+  .wave-center-circle-mic img {
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+.wave-center-circle-mic:hover img {
+    transform: scale(1.06) !important;
 }
 
 
